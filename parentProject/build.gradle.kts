@@ -18,7 +18,7 @@ dependencies {
     implementation(kotlin("stdlib"))
 }
 
-tasks.dokkaGfmMultiModule.configure {
+tasks.dokkaHtmlMultiModule.configure {
     println(projectDir.parentFile.resolve("docs"))
     outputDirectory.set(projectDir.parentFile.resolve("docs"))
 }
